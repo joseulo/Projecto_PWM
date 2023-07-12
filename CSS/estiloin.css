@@ -1,0 +1,61 @@
+@charset "utf-8";
+:root{
+    --fonte-logo: 'Times New Roman', Times, serif;
+    --font-padrao: Verdana, Geneva, Tahoma, sans-serif;
+    --font-destaque: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --cor01: #48ACF0;
+    --cor02: #003459;
+    --cor03: #FFFFFF;
+    --cor04: #748B75;
+    --cor05: #53B3CB;
+    --cor06: #F5B700;
+}
+form{
+    background-color: var(--cor03);
+    margin: auto;
+	margin-top: 10px;
+    margin-bottom: 30px;
+
+    max-width: 1000px;
+    min-width: 260px;
+
+    padding: 20px;
+
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.445);
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+input, textarea, select{
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight:300;
+	font-size:14px;
+	background-color:rgba(255,255,255,.8);
+}
+input:hover, textarea:hover, select:hover{
+	background-color:#dddddd;
+}
+legend{
+	color:#888800;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:16px;
+	font-weight:bold;
+}
+fieldset{
+	border: 1px solid;
+	border-color: var(--cor02);
+	margin:20px;
+}
+
+fieldset#usuario{
+	background:url(../Imagens/icone-contato.png) no-repeat 95% 95%;
+}
+fieldset#endereco{
+	background:url(../Imagens/icone-endereco.png) no-repeat 95% 95%;
+}
+fieldset#mensagem{
+	background:url(../Imagens/icone-mensagem.png) no-repeat 95% 95%;
+}
+fieldset#cand{
+	background:url(../Imagens/icone-mensagem.png) no-repeat 95% 95%;
+}

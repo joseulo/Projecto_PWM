@@ -1,0 +1,64 @@
+@charset "utf-8";
+:root{
+    --fonte-logo: 'Times New Roman', Times, serif;
+    --font-padrao: Verdana, Geneva, Tahoma, sans-serif;
+    --font-destaque: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --cor01: #48ACF0;
+    --cor02: #003459;
+    --cor03: #FFFFFF;
+    --cor04: #748B75;
+    --cor05: #53B3CB;
+    --cor06: #F5B700;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*Formatações do Header(Cabeçalho). Inclui o logotipo e o menu*/
+header{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    background-image: linear-gradient(to right, var(--cor01), var(--cor06));
+}
+#logo{
+    display: flex;
+}
+#logo>h1{
+    font-size: 80px;
+    color: var(--cor03);
+    margin-left: 12pt;
+    font-weight: bold;
+    font-family: var(--fonte-logo);
+}
+#logo>p{
+    font-size: 30px;
+    color: var(--cor03);
+    margin-left: 12pt;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: var(--fonte-logo);
+}
+
+#menu{
+    width: 100%;
+    height: 100%;
+}
+a>button{
+    text-decoration: none;
+    color: var(--cor03);
+}
+
+/*Formatações do main*/
+
+/*Formatações do footer (Rodapé)*/
+footer{
+    background-image: linear-gradient(to right, var(--cor01), var(--cor06));
+    color: var(--cor02);
+    text-align: center;
+    font-size: 1.3em;
+    padding: 5px;
+   margin-bottom: -10px;
+}
